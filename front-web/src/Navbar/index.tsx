@@ -1,4 +1,5 @@
 import './styles.css'
+
 import {ReactComponent as Logo} from './Logo.svg'; 
 function Navbar(){
     return(

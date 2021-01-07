@@ -2,8 +2,8 @@
     height: 70px;
     background-color: #DA5C5C;
     padding-left: 45px;
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .logo-text{
@@ -11,6 +11,6 @@
     font-size: 24px;
     line-height: 33px;
     letter-spacing: -0.015em;
-    color: #FFFFFF;
+    color: #FFFF;
     margin-left: 15px;
 }
