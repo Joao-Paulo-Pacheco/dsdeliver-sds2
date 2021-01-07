@@ -1,4 +1,5 @@
 import './styles.css';
+import {ReactComponent as MainImage} from './main.svg';
 
 function Home(){
     return(
@@ -12,7 +13,13 @@ function Home(){
                 Escolha o seu pedido e em poucos minutos <br/> 
                 levaremos na sua porta
             </h3>
-                </div>   
+            <a href="order" className="home-btn-order">
+                FAZER PEDIDO
+            </a>
+            </div>   
+                <div className="home-image">
+                    <MainImage />
+                </div>
             </div>
         </div>
     )
